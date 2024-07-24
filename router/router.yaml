@@ -11,7 +11,11 @@ sandbox:
 homepage:
   enabled: false
 
-cors:
+limits:
+max_depth:5
+max_height:10
+max_aliases:3
+cors: 
   origins:
     - https://studio.apollographql.com
   allow_credentials: true
